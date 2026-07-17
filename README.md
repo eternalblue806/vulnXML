@@ -99,13 +99,15 @@ The vulnerability did **not** compromise BitLocker cryptography. Instead, it abu
 
 ---
 
-# 📸 Demonstration
+## 📸 Demonstration
 
-The following screenshots illustrate the vulnerability during the affected recovery workflow.
+### WinRE Shell
 
-| WinRE Shell          | Unlocked BitLocker Volume |
-| -------------------- | ------------------------- |
-| ![](screenshot1.png) | ![](screenshot2.png)      |
+![](assets/screenshot1.png)
+
+### Unlocked BitLocker Volume
+
+![](assets/screenshot2.png)
 
 ---
 
@@ -116,8 +118,7 @@ GreatXML/
 │
 ├── Recovery/
 ├── unattend.xml
-├── screenshot1.png
-├── screenshot2.png
+├── assets
 └── README.md
 ```
 
